@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    font-size: 18;
+    font-size: 18px;
     text-align: center;
     border-bottom: 1px solid orange;
 }
@@ -30,7 +30,7 @@ main,
 footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: px 5;
+    max-width: 5px;
 }
 
 header,
@@ -42,11 +42,11 @@ footer a {
 }
 
 header img {
-    width: 5;
+    width: 5px;
     height: auto;
     float: right;
 }
 
 footer {
-    font-size: 12;
+    font-size: 12px;
 }
