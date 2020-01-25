@@ -1,10 +1,13 @@
 body {
+    text-align: center;
     font-size: 16px;
     line-height: 32px;
     font-family: "Comic Sans MS";
     color: blue;
 }
-
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
 h1 {
     font-size:
         /* x.xrem  (rem is a unit of measure) */
