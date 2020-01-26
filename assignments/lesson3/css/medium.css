@@ -3,11 +3,48 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
         padding: 20px;
         font-size: 30px;
         text-align: center;
+    }
+
+    .dropdownmenubutton {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        visibility: visible;
+    }
+
+    .dropdownmenu {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdownmenucontent {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdownmenucontent a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdownmenu:hover .dropdownmenucontent {
+        display: block;
+    }
+
+    .dropdownmenu:hover .dropdownmenubutton {
+        background-color: #3e8e41;
     }
 }

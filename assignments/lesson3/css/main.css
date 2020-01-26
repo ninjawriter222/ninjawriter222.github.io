@@ -5,9 +5,51 @@ body {
     font-family: "Comic Sans MS";
     color: blue;
 }
-nav{
-    font-family: 'Open Sans', sans-serif;
+
+.dropdownmenubutton {
+    visibility: hidden;
 }
+
+.dropdownmenu {
+    display: inline;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 16px;
+    display: block;
+    color: gray;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
 h1 {
     font-size:
         /* x.xrem  (rem is a unit of measure) */
@@ -30,16 +72,4 @@ footer {
     font-family: 'Roboto', sans-serif;
     background-color: green;
     color: orange;
-}
-
-.main_section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
 }
