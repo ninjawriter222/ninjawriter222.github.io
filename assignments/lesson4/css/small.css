@@ -1,0 +1,39 @@
+@media only screen and (max-width: 35em) {
+    .dropdownmenubutton {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdownmenu {
+        position: relative;
+        display: block;
+    }
+
+    .dropdownmenucontent {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdownmenucontent a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dropdownmenu:hover .dropdownmenucontent {
+        display: block;
+    }
+
+    .dropdownmenu:hover .dropdownmenubutton {
+        background-color: #3e8e41;
+    }
+}
