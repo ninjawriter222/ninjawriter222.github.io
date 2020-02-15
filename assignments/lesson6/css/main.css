@@ -1,0 +1,228 @@
+body {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: "Comic Sans MS";
+    color: blue;
+    background-color: orange;
+}
+
+.dropdownmenubutton {
+    display: none;
+    width: 100%
+}
+
+.dropdownmenu {
+    display: inline;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    display: flex;
+}
+
+li {
+    flex: left;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+li a {
+    padding: 14px 16px;
+    color: green;
+}
+
+li a.active {
+    background-color: gray;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+nav ul li.active a {
+    background-color: gray;
+}
+
+h1 {
+    font-size:
+        /* x.xrem  (rem is a unit of measure) */
+    ;
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18;
+    text-align: center;
+}
+
+header,
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: px 5;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: green;
+    color: orange;
+    width: 100%;
+    height: 25%;
+    float: left;
+}
+
+#logo {
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.logo {
+    width: 75%;
+    height: auto;
+}
+
+.one {
+    grid-area: logo;
+}
+
+.two {
+    grid-area: header;
+}
+
+.three {
+    grid-area: motto;
+}
+
+.four {
+    grid-area: filler;
+}
+
+.gridheader {
+    display: grid;
+    grid-template-areas:
+        'logo header header filler filler'
+        'logo header header filler filler'
+        'logo motto motto filler filler';
+}
+
+.contentbox {
+    padding: 10px;
+    background-color: orchid;
+    display: block;
+}
+
+.prestonphoto {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sunny {
+    width: 100px;
+    height: auto;
+}
+
+.weather {
+    position: relative;
+}
+
+.summary {
+    position: absolute;
+    background: radial-gradient(green, lightgreen);
+    float: left;
+    top: 100px;
+    left: 50px;
+    width: 35%;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: green;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+div.theGallery figure:hover {
+    box-shadow: 5px 10px 10px gray;
+    opacity: .5;
+    border-radius: 5px 50px
+}
+
+#popup {
+    display: none;
+    background-color: yellow;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 500px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 300px;
+}
+
+.contactinfo {
+    float: center;
+    width: 100%;
+}
+
+.mapouter {
+    float: left;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+.container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text::after{
+      content: "Large";
+  }
