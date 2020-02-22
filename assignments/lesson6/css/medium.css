@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     .dropdownmenubutton {
         background-color: #4CAF50;
         color: white;
@@ -40,5 +40,11 @@
     }
     .text::after{
         content: "Medium";
+    }
+    picture{
+        width: 80%;
+        max-width: 100%;
+        margin: auto;
+        overflow: hidden;
     }
 }
