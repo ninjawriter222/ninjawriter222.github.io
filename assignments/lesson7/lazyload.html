@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description">
+    <title>Lesson 7 Lazy Load</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+    <div>
+        <picture>
+            <img src="images/background.jpg" data-src="images/download.jpg" alt="Placeholder">
+        </picture>
+        <picture>
+            <img src="images/background.jpg" data-src="images/download(1).jpg" alt="Placeholder">
+        </picture>
+        <picture>
+            <img src="images/background.jpg" data-src="images/download(2).jpg" alt="Placeholder">
+        </picture>
+        <picture>
+            <img src="images/background.jpg" data-src="images/download(3).jpg" alt="Placeholder">
+        </picture>
+        <picture>
+            <img src="images/background.jpg" data-src="images/download(4).jpg" alt="Placeholder">
+        </picture>
+        <picture>
+            <img src="images/background.jpg" data-src="images/download(5).jpg" alt="Placeholder">
+        </picture>
+    </div>
+
+    <footer>
+        <section>
+            <p>&copy;<span id="year"></span>, Devin A. Poe, Arizona, USA,<a href="http://www.byui.edu/online/"
+                    target="_blank">BYU-Idaho Online Learning</a></p>
+            <P>Last Updated: <span id="date"></span></P>
+    <script src="js/year.js"></script>
+    <script src="js/lastmodified.js"></script>
+    <script src="js/lazyload.js"></script>
+    </section>
+    </footer>
+</body>
+
+</html>
