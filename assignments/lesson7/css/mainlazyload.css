@@ -1,0 +1,24 @@
+img{
+    width: 400px;
+    height: 300px;
+}
+div{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+img[data-src] {
+    filter: blur(0.2em);
+}
