@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description">
+    <title>Weather Gallery</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheetlink" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+</head>
+
+
+<body>
+
+    <header class="gridheader">
+        <div class="header"></div>
+        <div class="one"><img src="images/logo.png" class="logo" alt="logo"></div>
+        <div class="two">
+            <h1>Devin Poe's Weather Site</h1>
+        </div>
+        <div class="three">Weather on time, any time.</div>
+        <div class="four"></div>
+    </header>
+    <div class="dropdownmenu">
+        <button class="dropdownmenubutton">Menu</button>
+        <div class="dropdownmenucontent">
+            <nav>
+                <ul>
+                    <li><a href="preston-5.html">Home</a></li>
+                    <li><a href="Preston">Preston</a></li>
+                    <li><a href="Soda Springs">Soda Springs</a></li>
+                    <li><a href="Fish Haven">Fish Haven</a></li>
+                    <li class="active"><a href="Storm Center">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+
+            <main>
+                <div id=form>
+                    <form action="thanks.html" method="get" name="stormCenter" id="Storm">
+                        <label><span>Full Name:<br />
+                            </span><input name="fullname" type="text" value="" pattern="[a-zA-Z -._]{5,999}"
+                                required></label><br />
+                        <label><span>Email:<br />
+                            </span><input name="email" type="email" placeholder="JonDoe@google.com"></label><br />
+                        <label><span>Phone:<br />
+                            </span><input name="phone" type="tel" value="" pattern="[0-9]{10,20}"
+                                required></label><br />
+                        <label><span>Zipcode:<br />
+                            </span><input name="zipcode" type="number" pattern="[0-9]{5,8}" required></label><br />
+                        <label><span>Storm Date:<br />
+                            </span><input name="stormDate" type="date" required></label><br />
+                        <label>
+                            <label for="stormtype">Storm Type</label><br>
+                            <input list="stormtypes" name="stormtype" placeholder="Select one">
+                            <datalist id="stormtypes">
+                                <option value="Flash Flood">
+                                <option value="Hail">
+                                <option value="Hurricane">
+                                <option value="Thunderstorm">
+                                <option value="Tornado">
+                            </datalist><br><br>
+                            <label><span>Storm Severity:
+                                    <br /></span><input type="range" name="rating" min="1" max="10"> </label>
+                            <label for="stormregion">Storm Region</label><br>
+                            <select id="stormregion" name="stormregion">
+                                <option value="Select Region ..." selected disabled>Select Region ...</option>
+                                <option value="Preston">Preston</option>
+                                <option value="Soda Springs">Soda Springs</option>
+                                <option value="Fish Haven">Fish Haven</option>
+                            </select><br><br>
+                            <label><span>Dangerous</span>
+                                <input type="radio" name="danger" value="yes">Yes!
+                                <input type="radio" name="danger" value="maybe">Maybe
+                                <input type="radio" name="danger" value="no">no
+                            </label><br />
+                            <label><span>
+                                    Storm Details:</span><textarea name="stormDetail" width="25" height="25"></textarea>
+                            </label>
+                    </form>
+                    <input type="submit" value="Submit" class="submitStorm">
+                </div>
+            </main>
+            <footer>
+                <a href="http://www.byui.edu/online/">
+                    Click here
+                </a>
+                <b>to go to byui.edu
+                    </br>
+                    Contact info
+                    </br>
+                    Author: Devin Poe Email: jmailpoe@gmail.com Phone Number: (480) 703-0362
+                </b>
+            </footer>
+        </body>
+
+</html>
