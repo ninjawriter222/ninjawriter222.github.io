@@ -238,8 +238,7 @@ main {
 }
 
 footer {
-    margin-left: 10%;
-    width: 80%;
+    width: 100%;
     justify-content: center;
     float: left;
 }
