@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+th {
+    background-color: #628ca6;
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    box-shadow: 10px 10px 10px #628ca6;
+}
+
+thead {
+    background-color: #7fb9c2;
+}
+
+tbody {
+    background-color: #e7f0ed;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+#special {
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot {
+    font-size: 0.85rem;
+    background-color: #7fb9c2;
+}
