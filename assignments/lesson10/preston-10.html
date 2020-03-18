@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description">
+    <title>Lesson 4</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheetlink" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+</head>
+
+<body onload="myFunction()">
+    <div id="popup">
+        <h2>Saturday - Preson Pancakes in the Park!</br></h2>
+        <h2>9:00 a.m. Friday at the city park.</h2>
+    </div>
+    <header class="gridheader">
+        <div class="header"></div>
+        <div class="one"><img src="images/logo.png" class="logo" alt="logo"></div>
+        <div class="two">
+            <h1>Devin Poe's Weather Site</h1>
+        </div>
+        <div class="three">Weather on time, any time.</div>
+        <div class="four"></div>
+    </header>
+    <div class="dropdownmenu">
+        <button class="dropdownmenubutton">Menu</button>
+        <div class="dropdownmenucontent">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="preston-10.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda Springs</a></li>
+                    <li><a href="fishhaven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class=weather>
+                <div class="summary">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: Cloudy&deg;</p>
+                    <p>High: <span id=high></span>&deg;</p>
+                    <p>low: <span id=low></span>&deg;</p>
+                    <p>Wind Chill: <span id="windChill"></span></p>
+                    <p>Humidity: <span id=humidity></span></p>
+                    <p>Wind Speed: <span id=wSpeed></span> mph</p>
+                </div>
+                <h2>Preston Idaho</h2>
+                <div class=container>
+                    <picture>
+                        <source media="(min-width: 551px) and (max-width:799px)" srcset="images\Medium.jpg">
+                        <source media="(min-width: 800px)" srcset="images/Large.jpg">
+                        <img src="images/smallest.jpg" alt="image of Franklin">
+                    </picture>
+                </div>
+            </div>
+            <h3>Five Day Forecast</h3>
+            <div class="forecast">
+                <div class="grid-item">Wed</div>
+                <div class="grid-item">Thur</div>
+                <div class="grid-item">Fri</div>
+                <div class="grid-item">Sat</div>
+                <div class="grid-item">Sun</div>
+            </div>
+            <div class="forecast">
+                <div class="grid-item"><span id="imagesrc"></span><img src="" alt="" id="icon" /></p>90&deg;F</div>
+                <div class="grid-item"><img src="images/sunny.jpg" class=sunny alt="sunny image"><br>89&deg;F</div>
+                <div class="grid-item"><img src="images/sunny.jpg" class=sunny alt="sunny image"><br>88&deg;F</div>
+                <div class="grid-item"><img src="images/sunny.jpg" class=sunny alt="sunny image"><br>72&deg;F</div>
+                <div class="grid-item"><img src="images/sunny.jpg" class=sunny alt="sunny image"><br>75&deg;F</div>
+            </div>
+            <div class="contentbox">Article</div>
+            <div class="mapouter">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=preston%20idaho%2030%20N%201st%20E&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://periodic-table-of-elements.net"></a></div>
+                </div>
+            </div>
+            <div class=contactinfo>
+                Devin Poe's Weather Site</br>
+                30 N 1st E</br>
+                Preson, ID 83263</br>
+                </br>
+                </br>
+                Phone Number: 999-999-9999</br>
+                Email: theweathersite@tws.com
+            </div>
+        </main>
+    </br>
+        <footer>
+            <section class=footer>
+                <p>&copy;<span id="year"></span>, Devin A. Poe, Arizona, USA, <a href="http://www.byui.edu/online/"
+                        target="_blank">BYU-Idaho Online Learning</a></p>
+                <P>Last Updated: <span id="date"></span></P>
+
+                <script src="js/year.js"></script>
+                <script src="js/lastmodified.js"></script>
+                <script src="js/getdate.js"></script>
+                <script src="js/weatherapi.js"></script>
+                <script src="js/windchill.js"></script>
+            </section>
+        </footer>
+</body>
+
+</html>

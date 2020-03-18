@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description">
+    <title>Lesson 4</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheetlink" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+</head>
+
+<body onload="myFunction()">
+    <div id="popup">
+        <h2>Saturday - Preson Pancakes in the Park!</br></h2>
+        <h2>9:00 a.m. Friday at the city park.</h2>
+    </div>
+    <header class="gridheader">
+        <div class="header"></div>
+        <div class="one"><img src="images/logo.png" class="logo" alt="logo"></div>
+        <div class="two">
+            <h1>Devin Poe's Weather Site</h1>
+        </div>
+        <div class="three">Weather on time, any time.</div>
+        <div class="four"></div>
+    </header>
+    <div class="dropdownmenu">
+        <button class="dropdownmenubutton">Menu</button>
+        <div class="dropdownmenucontent">
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="preston-10.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda Springs</a></li>
+                    <li><a href="fishhaven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="city"></div>
+        </main>
+        </br>
+        <footer>
+            <section class=footer>
+                <p>&copy;<span id="year"></span>, Devin A. Poe, Arizona, USA, <a href="http://www.byui.edu/online/"
+                        target="_blank">BYU-Idaho Online Learning</a></p>
+                <P>Last Updated: <span id="date"></span></P>
+
+                <script src="js/year.js"></script>
+                <script src="js/lastmodified.js"></script>
+                <script src="js/getdate.js"></script>
+                <script src="js/overlay.js"></script>
+                <script src="js/windchill.js"></script>
+                <script src="js/towns.js"></script>
+            </section>
+        </footer>
+</body>
+
+</html>
