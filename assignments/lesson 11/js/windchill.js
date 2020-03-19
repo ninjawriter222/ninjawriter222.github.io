@@ -1,5 +1,5 @@
 function calculateWindChill(tempaverage, wSpeed) {
-var high = document.getElementById('high').textContent;
+var high = parseFloat(document.getElementById('high').textContent);
 var low =65;
 var wSpeed =5;
 var tempaverage= ((high + low) /2);

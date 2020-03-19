@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description">
+    <title>Weather Gallery</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheetlink" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+</head>
+
+<body onload="myFunction()">
+    <header class="gridheader">
+        <div class="header"></div>
+        <div class="one"><img src="images/logo.png" class="logo" alt="logo"></div>
+        <div class="two">
+            <h1>Devin Poe's Weather Site</h1>
+        </div>
+        <div class="three">Weather on time, any time.</div>
+        <div class="four"></div>
+    </header>
+    <div class="dropdownmenu">
+        <button class="dropdownmenubutton">Menu</button>
+        <div class="dropdownmenucontent">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda Springs</a></li>
+                    <li><a href="fishhaven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li class="active"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <h2>Gallery</h2>
+            <div class="theGallery">
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/NiceWeather.jpg" class=gallery alt="Beach Calm">
+                    <figcaption class=galleryCaption>Nice Weather</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/snow.jpg" class=gallery alt="Cold Weather">
+                    <figcaption class=galleryCaption>Snowy Wheather</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/cloudy.jpg" class=gallery alt="Bungalow">
+                    <figcaption class=galleryCaption>Cloudy</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/haboob.jpg" class=gallery alt="Colourful Fall">
+                    <figcaption class=galleryCaption>Haboob</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/rainy.jpg" class=gallery alt="Snowy Mountain">
+                    <figcaption class=galleryCaption>Rainy</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/spring.jpg" class=gallery alt="Spring Franklin">
+                    <figcaption class=galleryCaption>Spring Season</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/summer.jpg" class=gallery alt="Spring Franklin">
+                    <figcaption class=galleryCaption>Summer Season</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/sunny.jpg" class=gallery alt="Spring Franklin">
+                    <figcaption class=galleryCaption>Sunny</figcaption>
+                </figure>
+                <figure>
+                    <img img src="images/background.jpg" data-src="images/tornado.jpg" class=gallery alt="Spring Franklin">
+                    <figcaption> class=galleryCaptionTornado</figcaption>
+                </figure>
+            </div>
+
+
+
+
+            <div class=contactinfo>
+                Devin Poe's Weather Site</br>
+                30 N 1st E</br>
+                Preson, ID 83263</br>
+                </br>
+                </br>
+                Phone Number: 999-999-9999</br>
+                Email: theweathersite@tws.com
+            </div>
+        </main>
+        </br>
+        <footer>
+            <section class=footer>
+                <p>&copy;<span id="year"></span>, Devin A. Poe, Arizona, USA, <a href="http://www.byui.edu/online/"
+                        target="_blank">BYU-Idaho Online Learning</a></p>
+                <P>Last Updated: <span id="date"></span></P>
+
+                <script src="js/year.js"></script>
+                <script src="js/lastmodified.js"></script>
+                <script src="js/getdate.js"></script>
+                <script src="js/overlay.js"></script>
+                <script src="js/windchill.js"></script>
+                <script src="js/lazyload.js"></script>
+            </section>
+        </footer>
+</body>
+
+</html>
