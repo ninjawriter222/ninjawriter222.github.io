@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap');
+.title{
+    float: right;
+}
+
+#logo {
+    top: 0px;
+    background-color: #FAFFFD;
+    border: solid thick #3C91E6;
+    margin: 20px;
+    width: auto;
+    height: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding-left: 175px;
+    background-color: #fa824c;
+    line-height: 3em;
+    text-align: right;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    color: #9FD356;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #9FD356;
+    color: #fa824c;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #3C91E6;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.fullwitdh {
+    width: 100%;
+}
+
+.left-column,
+.right-column {
+    flex: 1 0 15em;
+}
+
+.color01 {
+    color: #fa824c;
+}
+
+.c-left-column {
+    padding: 10px;
+}
+
+.c-right-column {
+    float: right;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+#content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#c-row1,
+#c-row2,
+#c-row3 {
+    padding: 10px;
+}
+
+#row1,
+#row2 {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#row2 {
+    background-color: #342E37;
+}
+
+#row3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#footer {
+    flex-flow: row wrap;
+}
+
+#footer-left {
+    float: left;
+}
+
+#footer-right {
+    float: right;
+}
+
+#footer-right a {
+    padding: 10px;
+}
+
+#c-footer {
+    padding: 100px;
+}
+
+#c-body {
+    padding: 50px;
+}
+
+.generic-person-image {
+    height: 100px;
+    width: 75px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.saving-person-image {
+    width: 50%;
+}
+
+.rafting-image-difficulties {
+    width: 50%;
+}
+
+.rafting-image-1 {
+    width: 50%;
+}
