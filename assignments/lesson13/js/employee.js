@@ -16,7 +16,7 @@ fetch(apiURL)
         const email1 = document.getElementById('email1');
         email1.textContent = jsObject.employees[0].email;
         const certLv1 = document.getElementById('certLv1');
-        certLv1.textContent = jsObject.employees[0].certLV;
+        certLv1.textContent = jsObject.employees[0].certLv;
 
         const name2 = document.getElementById('name2');
         name2.textContent = jsObject.employees[1].name;
@@ -27,7 +27,7 @@ fetch(apiURL)
         const email2 = document.getElementById('email2');
         email2.textContent = jsObject.employees[1].email;
         const certLv2 = document.getElementById('certLv2');
-        certLv2.textContent = jsObject.employees[1].certLV;
+        certLv2.textContent = jsObject.employees[1].certLv;
 
         const name3 = document.getElementById('name3');
         name3.textContent = jsObject.employees[2].name;
@@ -38,5 +38,5 @@ fetch(apiURL)
         const email3 = document.getElementById('email3');
         email3.textContent = jsObject.employees[2].email;
         const certLv3 = document.getElementById('certLv3');
-        certLv3.textContent = jsObject.employees[2].certLV;
+        certLv3.textContent = jsObject.employees[2].certLv;
     });
