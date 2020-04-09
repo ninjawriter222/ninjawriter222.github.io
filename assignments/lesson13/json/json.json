@@ -1,5 +1,5 @@
 {"employees":[
-    {"name":"John", "age":"23", "phoneNumber":"1-800-000-0000", "email": "riverexcursion@gmail.com"},
-    {"name":"Steve", "age":"28", "phoneNumber":"1-800-000-0001","email": "rivermanager@gmail.com"},
-    {"name":"Peter", "age":"32", "phoneNumber":"1-800-000-0002","email": "raftinginfo@gmail.com"}
+    {"name":"John", "age":"23", "phoneNumber":"1-800-000-0000", "email": "riverexcursion@gmail.com", "certLv": "John has been with us for one year and though he hasn't been with us long, he still has over 50 hours of certified trainning and has both first aid and CPR trainning."},
+    {"name":"Steve", "age":"28", "phoneNumber":"1-800-000-0001", "email": "rivermanager@gmail.com", "certLv": "Steve has years of experience in white water rafing and is both CPR and First Aid certified."},
+    {"name":"Peter", "age":"32", "phoneNumber":"1-800-000-0002", "email": "raftinginfo@gmail.com", "certLv": "Peter is our bonified boy scout.  He has an achieved his eagle scout and also has years of trainning in white water rafting, CPR and first aid trainning.  Having been with us since the beginning he is our most experienced guide."}
  ]}
